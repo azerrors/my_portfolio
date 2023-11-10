@@ -66,7 +66,7 @@ function About() {
             aliquid animi similique eum nulla. Totam rerum nihil quia dolorum
             hic doloribus officia, sed velit culpa architecto sequi iste tenetur
             quis veniam distinctio aspernatur quod, laboriosam beatae at!
-            accusamus deleniti, ut, consequuntur illo? Tempora unde illum
+            accusamus delenfsfiti, ut, consequuntur illo? Tempora unde illum
             aliquid suscipit, amet officiis dolorem perferendis eos sit neque
             recusandae corporis ea architecto asperiores quibusdam. Iste
             aspernatur omnis aliquam qui aperiam cum. Provident necessitatibus
