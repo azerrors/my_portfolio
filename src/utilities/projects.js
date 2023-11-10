@@ -1,0 +1,35 @@
+export const myProjects = [
+  {
+    id: 1,
+    name: "Star-Wars",
+    description: "Star-Wars FanPage",
+    tech: [
+      "React",
+      "React-Query",
+      "React-Router",
+      "Context-Api",
+      "Tailwind",
+      "Swapi API",
+      "React-Hot-Toast",
+    ],
+    image: "/public/starwars.png",
+    github: "https://github.com/azerrors/starwars",
+    demo: "https://starwars-blush.vercel.app",
+  },
+  {
+    id: 2,
+    name: "Movie-App",
+    description: "Movie-App that you can find yourself",
+    tech: [
+      "React",
+      "React-Query",
+      "React-Router",
+      "Context-Api",
+      "Tailwind",
+      "Tmdb API",
+    ],
+    image: "/public/movie-app.png",
+    github: "https://github.com/azerrors/movie-app",
+    demo: "https://movie-app-kgd6.vercel.app",
+  },
+];
