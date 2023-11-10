@@ -9,12 +9,12 @@ function Experience() {
       <Typography
         type="text_secondary_sm"
         content="Explore my"
-        style="text-center mb-1"
+        style="text-center mb-1 hover:skew-x-3 hover:skew-y-2 hover:scale-[1.3]"
       />
       <Typography
         type="header_primary_lg"
         content="Experience"
-        style="text-center mb-20"
+        style="text-center mb-20 hover:skew-x-3 hover:skew-y-2 hover:scale-[1.3]"
       />
 
       <div className="mx-40 ">
@@ -49,7 +49,7 @@ function Experience() {
 
             <FlexUi
               type="none"
-              style="flex-col md:w-auto  w-screen md:p-5 border-2 border-stone-400 rounded-3xl"
+              style="flex-col md:w-auto py-7  w-screen md:p-5 border-2 border-stone-400 rounded-3xl"
             >
               <Typography
                 type="text_secondary_lg"

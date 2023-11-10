@@ -8,12 +8,12 @@ function Projects() {
       <Typography
         type="text_secondary_sm"
         content="Browse my Recent"
-        style="text-center mb-1"
+        style="text-center mb-1 hover:skew-x-3 hover:skew-y-2 hover:scale-[1.3]"
       />
       <Typography
         type="header_primary_lg"
         content="Projects"
-        style="text-center mb-20"
+        style="text-center mb-20 hover:skew-x-3 hover:skew-y-2 hover:scale-[1.3]"
       />
 
       <List type="projects"/>

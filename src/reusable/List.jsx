@@ -9,7 +9,7 @@ import ListElement from "./ListElement";
 function List({ type }) {
   if (type === "frontskills") {
     return (
-      <div className="grid grid-cols-2 md:place-items-start place-items-center gap-10 mt-7">
+      <div className="grid grid-cols-2 md:place-items-start jutify-center place-items-center gap-10 mt-7">
         {hardSkills?.map((skill) => {
           return <ListElement skill={skill} key={skill.id} type={type} />;
         })}

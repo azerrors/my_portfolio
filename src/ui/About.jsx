@@ -12,18 +12,18 @@ function About() {
       <Typography
         type="text_secondary_sm"
         content="Get to know More"
-        style="text-center mb-1"
+        style="text-center mb-1 hover:skew-x-3 hover:skew-y-2 hover:scale-[1.3]"
       />
       <Typography
         type="header_primary_lg"
         content="About me"
-        style="text-center mb-20"
+        style="text-center mb-20 hover:skew-x-3 hover:skew-y-2 hover:scale-[1.3]"
       />
       <FlexUi type="center" style="my-0 flex-col md:flex-row mx-10 gap-20">
         <ImageUi
           type="secondary"
           src="/Marcus Aurelius.jpg"
-          style="animate-moveInLeft"
+          style="animate-moveInLeft "
         />
         <FlexUi type="none" style="flex-col text-center">
           <FlexUi type="center" style="gap-5 flex-col md:flex-row">

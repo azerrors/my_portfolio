@@ -67,7 +67,7 @@ function ListElement({ type, skill, project }) {
         </FlexUi>
         <FlexUi type="none" style="md:gap-20 gap-5 my-10 items-center">
           <FlexUi type="none" style="flex-col">
-            <Typography type="header_primary_sm" content={name} />
+            <Typography type="header_primary_sm" style = "hover:skew-x-3 hover:skew-y-2 hover:scale-[1.3]" content={name} />
           </FlexUi>
           <FlexUi type="none" style="gap-2">
             <ButtonUi type="primary_sm" content="Github" link={github} />
