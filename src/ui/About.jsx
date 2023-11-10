@@ -22,7 +22,7 @@ function About() {
       <FlexUi type="center" style="my-0 flex-col md:flex-row mx-10 gap-20">
         <ImageUi
           type="secondary"
-          src="../../dist/Marcus Aurelius.jpg"
+          src="/Marcus Aurelius.jpg"
           style="animate-moveInLeft"
         />
         <FlexUi type="none" style="flex-col text-center">

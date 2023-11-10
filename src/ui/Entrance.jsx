@@ -14,7 +14,7 @@ function Entrance() {
     >
       <ImageUi
         type="primary"
-        src="../../dist/Marcus Aurelius.jpg"
+        src="/Marcus Aurelius.jpg"
         style="animate-moveInLeft"
       />
       <FlexUi type="center" style="flex-col gap-2 ">
