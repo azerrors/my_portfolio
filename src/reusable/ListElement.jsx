@@ -43,7 +43,6 @@ function ListElement({ type, skill, project }) {
     );
   }
   if (type === "projects") {
-    console.log(project);
     const { name, tech, image, github, demo, description } = project;
     return (
       <FlexUi
@@ -65,7 +64,7 @@ function ListElement({ type, skill, project }) {
             );
           })}
         </FlexUi>
-        <FlexUi type="none" style="md:gap-20 gap-5 my-10 items-center">
+        <FlexUi type="none" style="md:gap-20  gap-5 my-10 items-center h">
           <FlexUi type="none" style="flex-col">
             <Typography type="header_primary_sm" style = "hover:skew-x-3 hover:skew-y-2 hover:scale-[1.3]" content={name} />
           </FlexUi>

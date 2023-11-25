@@ -2,8 +2,8 @@
 import FlexUi from "../reusable/FlexUi";
 import Typography from "../reusable/Typography";
 
-import { LuMoreHorizontal } from "react-icons/lu";
-import { AiOutlineClose } from "react-icons/ai";
+import { CgDetailsMore } from "react-icons/cg";
+
 import Theme from "./Theme";
 
 function Navbar({ setShow, show }) {
@@ -20,15 +20,10 @@ function Navbar({ setShow, show }) {
         />
       </FlexUi>
       <div>
-        {show ? (
-          <AiOutlineClose
+        {!show && (
+          <CgDetailsMore
             onClick={() => setShow((show) => !show)}
-            className="md:hidden text-2xl dark:text-stone-200 cursor-pointer"
-          />
-        ) : (
-          <LuMoreHorizontal
-            onClick={() => setShow((show) => !show)}
-            className="md:hidden text-2xl dark:text-stone-200 cursor-pointer"
+            className={` md:hidden text-2xl dark:text-stone-200 cursor-pointer`}
           />
         )}
       </div>

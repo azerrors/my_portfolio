@@ -17,11 +17,11 @@ function Experience() {
         style="text-center mb-20 hover:skew-x-3 hover:skew-y-2 hover:scale-[1.3]"
       />
 
-      <div className="mx-40 ">
+      <div className=" ">
         <FlexUi type="around" style="flex-col gap-10 md:flex-row">
           <FlexUi
             type="none"
-            style="flex-col md:w-auto  w-screen border-2 border-stone-400 rounded-3xl p-10"
+            style="flex-col  md:w-auto  w-screen  border-2 border-stone-400 rounded-3xl p-10"
           >
             <Typography
               type="text_secondary_lg"
@@ -31,10 +31,7 @@ function Experience() {
             <List type="frontskills" />
           </FlexUi>
 
-          <FlexUi
-            type="none"
-            style="flex-col gap-10  md:gap-24"
-          >
+          <FlexUi type="none" style="flex-col gap-10  md:gap-24">
             <FlexUi
               type="none"
               style="flex-col md:w-auto  w-screen p-7  border-2 border-stone-400 rounded-3xl"
