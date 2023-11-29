@@ -33,7 +33,7 @@ export const myProjects = [
     demo: "https://movie-app-kgd6.vercel.app",
   },
   {
-    id: 2,
+    id: 3,
     name: "Worldcom",
     description: "Movie-App that you can find yourself",
     tech: [
